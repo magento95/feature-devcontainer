@@ -1,0 +1,18 @@
+{
+    "name": "PHP Custom Container",
+    "id": "php",
+    "version": "1.0.0",
+    "description": "A feature to install php in order to run php execution",
+    "options": {
+            "version": {
+                "type": "string",
+                "default": "8.3",
+                "description": "php version to install"
+            },
+            "installComposer": {
+                "type": "boolean",
+                "default": true,
+                "description": "it installs composer"
+            }
+    }
+}
